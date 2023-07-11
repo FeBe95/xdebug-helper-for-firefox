@@ -132,7 +132,7 @@ function updateIcon(status, tabId)
 {
 	// Figure the correct title/image with the given state
 	var title = "Debugging, profiling & tracing disabled",
-		image = "images/bug-gray.svg";
+		image = "images/bug-outline.svg";
 
 	if (status == 1)
 	{

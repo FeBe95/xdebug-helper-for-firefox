@@ -1,7 +1,7 @@
 {
 	"name": "Xdebug helper",
 	"description": "Easy debugging, profiling and tracing extension for Xdebug",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"author": "Brian Gilbert",
 
 	"manifest_version": 2,
@@ -21,8 +21,8 @@
 	},
 
 	"page_action": {
-		"default_icon": "images/bug-gray.svg",
-		"default_title": "Debugging, profiling & tracing disabled",
+		"default_icon": "images/bug-outline.svg",
+		"default_title": "Debugging, profiling & tracing",
 		"default_popup" : "popup.html"
 	},
 	"content_scripts": [ {

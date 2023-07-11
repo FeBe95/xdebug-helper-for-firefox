@@ -10,7 +10,7 @@ remove unsupported webextensions API calls.
 
 Hotkeys
 -------
-Ctrl+Shift+X (Cmd+Shift+X on Mac) opens the popup.  
+Ctrl+Shift+X (Cmd+Shift+X on Mac) opens the popup.
 Alt+Shift+X toggles the debugging state.
 
 How to install this extension?
@@ -21,6 +21,16 @@ and click "Add to Firefox".
 **Development version:** [Download the source from GitHub](https://github.com/BrianGilbert/xdebug-helper-for-firefox/archive/master.zip)
 and [load the extension into Firefox](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Temporary_Installation_in_Firefox)
 yourself!
+
+Pitfalls
+--------
+**Xdebug Icon not showing up in Address bar.**
+
+You might need to either allow the extension to run in private mode or enable your browser history.
+Disabling the browser history internally turns on the private-mode and disables all plugins that aren't allowed for private mode.
+
+@see [this comment](https://github.com/BrianGilbert/xdebug-helper-for-firefox/issues/33#issuecomment-1168994059) and [that comment](https://bugzilla.mozilla.org/show_bug.cgi?id=1266409#c2)
+
 
 How do I contribute?
 --------------------

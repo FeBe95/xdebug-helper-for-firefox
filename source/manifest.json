@@ -1,7 +1,7 @@
 {
 	"name": "Xdebug helper",
 	"description": "Easy debugging, profiling and tracing extension for Xdebug",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"author": "Brian Gilbert",
 
 	"manifest_version": 2,
@@ -31,8 +31,6 @@
 	} ],
 	"background": {
 		"scripts": [ "background.js" ]
-//	,
-//		"persistent": false
 	},
 
 	"commands": {
